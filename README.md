@@ -11,9 +11,9 @@ On top the method use @Scheduled
 @Scheduled(fixedRate = 2000L)
 Assume that this method take almost 5 Seconds to complete. 
 Method will execute for every 2 seconds irrespect whether method complete or not. notice the below output
-  2023-01-06 10:26:23.585 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:26:23 IST 2023
-  2023-01-06 10:26:25.589 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:26:25 IST 2023
-  2023-01-06 10:26:27.591 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:26:27 IST 2023
+ 2023-01-06 10:26:23.585 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:26:23 IST 2023
+ 2023-01-06 10:26:25.589 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:26:25 IST 2023
+ 2023-01-06 10:26:27.591 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:26:27 IST 2023
 
 @Scheduled(fixedDelay = 2000L). it will execute once method is complete. then wait for 2 seconds. notice the below output
   2023-01-06 10:23:46.287 [scheduling-1] c.k.s.SchedulerDemoApplication: Job Current Date and Time is :Fri Jan 06 10:23:46 IST 2023
